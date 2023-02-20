@@ -22,6 +22,7 @@ mixin ApiClient {
     if (!path.endsWith('/')) {
       path += '/';
     }
+
     if (path.startsWith('/')) {
       path = path.substring(1);
     }
