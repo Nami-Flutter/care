@@ -51,11 +51,16 @@ class SettingsService extends GetxService {
         hintColor:
         // Ui.secondaryAppColor,
         Ui.parseColor(setting.value.secondColor),
+        // textButtonTheme: TextButtonThemeData(
+        //   style: TextButton.styleFrom(
+        //     foregroundColor:
+        //     // Ui.appColor,
+        //     Ui.parseColor(setting.value.mainColor),
+        //   ),
+        // ),
         textButtonTheme: TextButtonThemeData(
-          style: TextButton.styleFrom(
-            foregroundColor:
-            // Ui.appColor,
-            Ui.parseColor(setting.value.mainColor),
+          style: ButtonStyle(
+            foregroundColor: MaterialStateProperty.all<Color>(Ui.parseColor(setting.value.mainColor)),
           ),
         ),
         colorScheme: ColorScheme.light(
@@ -169,11 +174,16 @@ class SettingsService extends GetxService {
         toggleableActiveColor:
         // Ui.appColor,
         Ui.parseColor(setting.value.mainDarkColor),
+        // textButtonTheme: TextButtonThemeData(
+        //   style: TextButton.styleFrom(
+        //     foregroundColor:
+        //     // Ui.appColor,
+        //     Ui.parseColor(setting.value.mainColor),
+        //   ),
+        // ),
         textButtonTheme: TextButtonThemeData(
-          style: TextButton.styleFrom(
-            foregroundColor:
-            // Ui.appColor,
-            Ui.parseColor(setting.value.mainColor),
+          style: ButtonStyle(
+            foregroundColor: MaterialStateProperty.all<Color>(Ui.parseColor(setting.value.mainColor)),
           ),
         ),
         colorScheme: ColorScheme.dark(

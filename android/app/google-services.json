@@ -1,41 +1,70 @@
 {
   "project_info": {
-    "project_number": "82342958619",
-    "project_id": "beautysalons-9a815",
-    "storage_bucket": "beautysalons-9a815.appspot.com"
+    "project_number": "967037153880",
+    "project_id": "care-17720",
+    "storage_bucket": "care-17720.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:82342958619:android:5d2afd95efb2fab7a08abe",
+        "mobilesdk_app_id": "1:967037153880:android:3e58e0864d0c67cc51502d",
         "android_client_info": {
-          "package_name": "com.smartersvision.beauty_salons"
+          "package_name": "com.apps.care"
         }
       },
       "oauth_client": [
         {
-          "client_id": "82342958619-0tt7ca2s9hbtcho1kh2bpl0omns9o23t.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.smartersvision.beauty_salons",
-            "certificate_hash": "12bbf8e25752b28535e857994fa30ba36641e0f0"
-          }
-        },
-        {
-          "client_id": "82342958619-3t21nu75klsc22oqi39qf591urj6c1pq.apps.googleusercontent.com",
+          "client_id": "967037153880-gr6tmdqb0q5p1h9ig3iu30os9g6ebvq0.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBzQDWAcKmrRNlSl2k36HSIEGAW5VGu_QI"
+          "current_key": "AIzaSyB_x2i7yYs6168nS2jfnEAdTetFU-34n8s"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "82342958619-3t21nu75klsc22oqi39qf591urj6c1pq.apps.googleusercontent.com",
+              "client_id": "967037153880-5ksgvjf7ipcu6hb3hfq7njhd8chfcjoo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967037153880:android:a7bc98f5ae37b1b751502d",
+        "android_client_info": {
+          "package_name": "com.u6amtech.flutter_sixvalley_ecom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967037153880-maq69lebf25eosn2vp00lskp8inrnji3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.u6amtech.flutter_sixvalley_ecom",
+            "certificate_hash": "010bffd6fd9db9249b3298df0cc49858c00e3574"
+          }
+        },
+        {
+          "client_id": "967037153880-gr6tmdqb0q5p1h9ig3iu30os9g6ebvq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_x2i7yYs6168nS2jfnEAdTetFU-34n8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "967037153880-5ksgvjf7ipcu6hb3hfq7njhd8chfcjoo.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
