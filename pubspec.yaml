@@ -43,12 +43,6 @@ dependencies:
   webview_flutter: 3.0.4
   flutter_html: 3.0.0-alpha.3
   url_launcher: 6.1.2
-  # FIREBASE
-  firebase_messaging: 11.4.0
-  cloud_firestore: 3.1.15
-  firebase_auth: 3.3.18
-  firebase_core: 1.17.0
-  firebase_storage: 10.2.16
   # GOOGLE MAPS
   google_maps_flutter: 2.1.5
   map_launcher: 2.2.2
@@ -60,7 +54,19 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
+  # FIREBASE
+#  firebase_messaging: 11.4.0
+#  cloud_firestore: 3.1.15
+#  firebase_auth: 3.3.18
+#  firebase_core: 1.17.0
+#  firebase_storage: 10.2.16
 
+  # FIREBASE
+  firebase_messaging: 14.2.5
+  cloud_firestore: 4.4.3
+  firebase_auth: 4.2.9
+  firebase_core: 2.7.0
+  firebase_storage: 11.0.14
 
 dev_dependencies:
   flutter_test:
@@ -110,3 +116,8 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+
+
+
+#Error (Xcode): ../../../../../../.pub-cache/hosted/pub.dev/firebase_core-1.17.0/lib/src/firebase_app.dart:18:25: Error: Member not found: 'FirebaseAppPlatform.verifyExtends'.
